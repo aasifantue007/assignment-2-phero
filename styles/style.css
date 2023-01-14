@@ -6,7 +6,8 @@
 ========================*/
 body{
     font-family: 'Raleway', sans-serif;
-    background-color: 
+    background-color: #F0FFFF;
+    
 }
 /*=====Global Resizing0=====
 ============================*/
@@ -101,15 +102,14 @@ body{
     display: grid;
     grid-template-columns: repeat(2, 1fr);
     padding-left: 250px;
-    grid-template-rows: repeat(2, 1fr);
+    background-color: white;
+    
 }
 .team-text{
     text-align: left;
     width: 50%; 
     margin-right: 100px;
     margin-top: 200px;
-    
-    
 }
 .team-heading{
     padding-bottom: 25px; 
@@ -125,4 +125,111 @@ body{
 }
 .grey-color{
     color: gray;
+}
+.explore-button-2{
+        background-color: #014FA3;
+        border-radius: 10px;
+        color:white;
+        width: 120px;
+        height: 50px;
+        border: none;
+}
+/*=====Head Designer Section=====
+=================================*/
+
+
+
+
+/*=====Achievement Section=====
+===============================*/
+.achievement-container{
+    padding-top: 20px;
+    background-color: white;
+    
+}
+.achievements{
+    display: flex;
+    justify-content: center;
+    width: 100%;
+    text-align: center;
+}
+.box-1{
+    padding: 50px;
+    margin: 50px;
+    border-radius: 20px;
+    border: solid 1px;
+    border-color: #014FA3; 
+}
+.box-2{
+    padding: 50px;
+    margin: 50px;
+    border-radius: 20px; 
+    border: solid 1px;
+    border-color: #014FA3;
+}
+.box-3{
+    padding: 50px;
+    margin: 50px;
+    border-radius: 20px;
+    border: solid 1px;
+    border-color: #014FA3;  
+}
+.box-4{
+    padding: 50px;
+    margin: 50px;
+    border-radius: 20px;
+    border: solid 1px;
+    border-color: #014FA3;
+}
+.icons{
+    width: 60px;
+}
+.number{
+    margin-top: 10px;
+    margin-bottom: 10px;
+    font-family:Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif
+}
+.achive-header{
+    margin-top: 70px;
+    padding-bottom: 25px; 
+    font-size: 30px;
+    font-family:  Georgia, Times;
+    text-decoration:none;
+    color: #014FA3;
+    text-align: center;
+}
+.achieve-paragraph{
+    color: gray;
+    text-align: center;
+}  
+/*=====Our Partners Section=====
+================================*/
+
+
+.company-logos{
+    margin-top: 50px;
+    display: flex;
+    justify-content: space-evenly;
+    width: 100%;
+    padding-bottom: 100px;
+}
+.company-logo{
+    filter: grayscale();
+}
+.partner-paragraph{
+    padding-bottom: 20px;
+    color: gray;
+    text-align: center;
+    padding-top: 20px;
+}
+
+
+/*=====Footer Section=====
+==========================*/
+.footer{
+    background-color: blanchedalmond;
+    padding: 20px;  
+}
+.foonter-text{
+    text-align: center;
 }
