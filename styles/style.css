@@ -1,0 +1,128 @@
+/*=====Fonts======
+==================*/
+@import url('https://fonts.googleapis.com/css2?family=Raleway:wght@500&display=swap');
+
+/*=====Common Style===== 
+========================*/
+body{
+    font-family: 'Raleway', sans-serif;
+    background-color: 
+}
+/*=====Global Resizing0=====
+============================*/
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+/*=====Header=====
+==================*/
+.nav-container{
+    display: flex;
+    justify-content: space-between;
+    background-color: azure;
+    padding-top: 20px;
+    padding-bottom: -50px;
+    width: 100%;
+    
+}
+.logo{
+    max-width: 50%;
+    height: auto;
+    padding-left: 200px;
+
+}
+.nav-title{
+    display: flex;
+    font-size: 16px;
+    padding: 2px;
+    list-style: none;
+    padding-bottom: -10px;
+    padding-right: 30px;
+
+}
+.nav-title-list{
+    padding: 20px;
+    padding-bottom: 30px;
+    
+
+}
+/*=====Banner Section=====
+==========================*/
+.banner-container{
+    background-color: azure;  
+}
+.main-text{
+    margin: 50px;
+    padding:20px;
+    text-align: center;  
+}
+.heading{
+    padding-bottom: 30px; 
+    font-size: 50px;
+    font-family:  Georgia, Times;
+    text-decoration:none;
+    color: #014FA3;
+    
+    
+}
+.main-paragraph{
+    padding-bottom: 30px;
+    color: gray;
+    font-size: 18px;
+}
+.explore-button{
+    background-color: #014FA3;
+    border-radius: 10px;
+    color:white;
+    width: 170px;
+    height: 60px;
+    border: none;
+    
+}
+.hero{
+    display: flex;
+    justify-content: center;
+    align-items: center;   
+}
+.hero-image{
+    height: 60%;
+    width: 60%;
+    position: relative;
+    margin-top: 10px;
+    margin-top: -40px;
+    
+}
+/*=====Team Section=====
+========================*/
+.team-container{
+    padding-top: 50px;
+    height: 100%;
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    padding-left: 250px;
+    grid-template-rows: repeat(2, 1fr);
+}
+.team-text{
+    text-align: left;
+    width: 50%; 
+    margin-right: 100px;
+    margin-top: 200px;
+    
+    
+}
+.team-heading{
+    padding-bottom: 25px; 
+    font-size: 25px;
+    font-family:  Georgia, Times;
+    text-decoration:none;
+    color: #014FA3;
+}
+.team-paragraph{
+    padding-bottom: 30px;
+    color: gray;
+    font-size: 12px;
+}
+.grey-color{
+    color: gray;
+}
