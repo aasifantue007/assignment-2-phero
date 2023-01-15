@@ -24,13 +24,14 @@ body{
     background-color: azure;
     padding-top: 20px;
     padding-bottom: -50px;
-    width: 100%;
-    
+    width: 100%;  
 }
-.logo{
-    max-width: 50%;
-    height: auto;
-    padding-left: 200px;
+.main-logo{
+    overflow: hidden;
+    margin-top: 20px;
+    padding-left: 100px;
+    font-family: 'Secular One', sans-serif;
+    color: gray;
 
 }
 .nav-title{
@@ -45,12 +46,15 @@ body{
 .nav-title-list{
     padding: 20px;
     padding-bottom: 30px;
+    color: grey;
     
 
 }
 /*=====Banner Section=====
 ==========================*/
 .banner-container{
+    display: flex;
+    flex-direction: column;
     background-color: azure;  
 }
 .main-text{
@@ -98,18 +102,17 @@ body{
 ========================*/
 .team-container{
     padding-top: 50px;
-    height: 100%;
     display: grid;
     grid-template-columns: repeat(2, 1fr);
-    padding-left: 250px;
-    background-color: white;
-    
+    background-color: white;  
+}
+.team-images{
+    margin-left: 250px;
 }
 .team-text{
-    text-align: left;
-    width: 50%; 
-    margin-right: 100px;
-    margin-top: 200px;
+    width: 50%;
+    padding-top: 200px; 
+    padding-left: 50px;
 }
 .team-heading{
     padding-bottom: 25px; 
@@ -407,3 +410,69 @@ body{
     font-size: 14px;
     color: white;
 }
+
+/*=====Media Queries=====
+=========================*/
+
+/* -----Mobile Devices----- */
+
+@media only screen and (max-width: 688px){
+    .nav-container{
+        flex-direction: column;
+    }
+   .main-text{
+    text-align: left;
+   }
+   .heading{
+    width: 50%;
+    font-size: 20px;
+    text-align: left;
+   }
+   .main-paragraph{
+    width: 60%;
+    font-size: 15px;
+    padding-left: 10px;
+   }
+   .explore-button{
+    margin-top: -20px;
+    width: 100px;
+    height: 50px;
+   }
+   .hero{
+    width: 60%;
+   }
+   .designer-button{
+    display: none;
+   }
+   .team-container{
+    grid-template-columns: repeat(1 1fr);
+   }
+.team.images{
+    width: 50%;
+}
+.team-text{
+    width: 50px;
+}
+.team-image-1{
+    width: 80%;
+}
+.team-image-2{
+    width: 80%;
+}
+.team-image-3{
+    width: 80%;
+}
+.team-image-4{
+    width: 80%;
+}
+.team-text{
+    padding-top:100px;
+    align-items: left
+    ;
+}
+.achievement-container{
+    flex-direction: column;
+}
+
+}
+
