@@ -141,6 +141,7 @@ body{
     display: grid;
     width: 100%;
     grid-template-columns: repeat(2, 1fr);
+    background-color: white;
 }
 .designer-image{
     width: 70%;
@@ -165,13 +166,16 @@ body{
     text-align: left;
     margin-left: 100px;
     padding: 50px;
+
 }
 .designer-text-head{
     padding-bottom: 20px; 
     font-size: 20px;
     font-family:  Georgia, Times;
     text-decoration:none;
-    color: gray
+    color: gray;
+    border-left: 5px solid #014FA3;
+    padding-left: 20px;
 }
 .designer-name{
     padding-bottom: 20px; 
@@ -179,12 +183,60 @@ body{
     font-family:  Georgia, Times;
     text-decoration:none;
     color: #014FA3;
+    border-left: 5px solid #014FA3; 
+    padding-left: 20px;
 }
 .designer-intro{
         padding-bottom: 30px;
         color: gray;
         font-size: 14px;
         text-align: left;
+        margin-bottom: 8px;
+        padding-bottom: 30px;
+        margin-top: 10px;
+}
+.text-box1{
+    width: 80%;
+    padding: 10px;
+    box-shadow: 2px #000;
+    margin-bottom: 50px;
+    box-shadow: 4px 3px 1px rgba(0, 0, 0, 0.300) ;
+    border-radius: 3px;
+}
+.text-box2{
+    width: 80%;
+    padding: 10px;
+    box-shadow: 2px #000;
+    margin-bottom: 50px;
+    box-shadow: 4px 3px 1px rgba(0, 0, 0, 0.300) ;
+    border-radius: 3px;
+}
+.text-box3{
+    width: 80%;
+    padding: 10px;
+    box-shadow: 2px #000;
+    margin-bottom: 50px;
+    box-shadow: 4px 3px 1px rgba(0, 0, 0, 0.300) ;
+    border-radius: 3px;
+}
+.text-box4{
+    width: 80%;
+    padding: 10px;
+    box-shadow: 2px #000;
+    margin-bottom: 50px;
+    box-shadow: 4px 3px 1px rgba(0, 0, 0, 0.300) ;
+    border-radius: 3px;
+}
+.box-text{
+    font-size: 16px;
+    padding-bottom: 10px;
+    color: #014FA3;
+}
+.box-paragraph{
+    font-size: 14px;
+    padding-bottom: 10px;
+    color: gray;
+
 }
 
 
@@ -317,18 +369,22 @@ body{
     margin: 20px;
     padding:20px;
     border-radius: 10px;
-    
+    border: none;
+    background-color: rgba(211, 211, 211, 0.6);
 }
 .email{
     margin: 20px;
     padding: 20px;
     border-radius: 10px;
+    border: none;
+    background-color: rgba(211, 211, 211, 0.6);
 }
 .textarea{
     border-radius: 10px;
     padding: 20px;
     margin-right: 30px;
-    padding-bottom: ;
+    border: none;
+    background-color:rgba(211, 211, 211, 0.6);
 }
 .form-button{
     background-color: #014FA3;
@@ -343,9 +399,11 @@ body{
 /*=====Footer Section=====
 ==========================*/
 .footer{
-    background-color: blanchedalmond;
+    background-color: #014FA3;
     padding: 20px;  
 }
 .footer-text{
     text-align: center;
+    font-size: 14px;
+    color: white;
 }
