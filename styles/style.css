@@ -137,7 +137,55 @@ body{
 
 /*=====Head Designer Section=====
 =================================*/
-
+.designer-container{
+    display: grid;
+    width: 100%;
+    grid-template-columns: repeat(2, 1fr);
+}
+.designer-image{
+    width: 70%;
+    height: auto;
+    
+}
+.designer-button{
+    background-color: #014FA3;
+    border-radius: 10px;
+    color:white;
+    width: 300px;
+    height:100px;
+    border: none;
+    position:absolute;
+    top: 265%;
+    left: 45%;
+    opacity: calc(90%);
+    font-size: 30px;
+    font-family: Georgia, Times;
+}
+.designer-texts{
+    text-align: left;
+    margin-left: 100px;
+    padding: 50px;
+}
+.designer-text-head{
+    padding-bottom: 20px; 
+    font-size: 20px;
+    font-family:  Georgia, Times;
+    text-decoration:none;
+    color: gray
+}
+.designer-name{
+    padding-bottom: 20px; 
+    font-size: 50px;
+    font-family:  Georgia, Times;
+    text-decoration:none;
+    color: #014FA3;
+}
+.designer-intro{
+        padding-bottom: 30px;
+        color: gray;
+        font-size: 14px;
+        text-align: left;
+}
 
 
 
